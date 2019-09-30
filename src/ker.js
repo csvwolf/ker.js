@@ -15,10 +15,10 @@ class Ker {
     this.account = new Account(email, token)
   }
 
-  test() {
+  async test() {
     try {
-      this.account.getQuota()
-    } catch(e) {
+      await this.account.getQuota()
+    } catch (e) {
       return false
     }
     return true
