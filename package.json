@@ -1,6 +1,6 @@
 {
   "name": "ker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hostker Node SDK",
   "main": "index.js",
   "scripts": {
