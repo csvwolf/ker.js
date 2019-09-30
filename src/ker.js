@@ -12,7 +12,7 @@ class Ker {
     this.monitor = new Monitor(email, token)
     this.server = new Server(email, token)
     this.ssh = new SSH(email, token)
-    this.account = new this.Account(email, token)
+    this.account = new Account(email, token)
   }
 
   test() {
